@@ -32,9 +32,15 @@
             android:exported="false" />
         <activity
             android:name=".ui.theme.MainActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ListaTelefone"/>
+            android:theme="@style/Theme.ListaTelefone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

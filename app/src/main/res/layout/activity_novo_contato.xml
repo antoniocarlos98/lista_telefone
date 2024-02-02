@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".ui.theme.NovoContatoActivity">
+    tools:context=".ui.NovoContatoActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:textSize="30sp" />
 
     <ImageView
-        android:id="@+id/image_foto"
+        android:id="@+id/imagem_foto"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginVertical="10dp"
@@ -61,18 +61,17 @@
             android:id="@+id/button_gravar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="5dp"
             android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
             android:text="Gravar" />
-
         <Button
             android:id="@+id/button_cancelar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="5dp"
             android:layout_weight="1"
-            android:text="cancelar" />
-    </LinearLayout>
+            android:layout_marginHorizontal="5dp"
+            android:text="Cancelar" />
 
+    </LinearLayout>
 
 </LinearLayout>

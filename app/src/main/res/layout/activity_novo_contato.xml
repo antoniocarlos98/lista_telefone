@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Novo Contato"
-        android:textSize="30sp"/>
-    
+        android:textSize="30sp" />
+
     <ImageView
         android:id="@+id/image_foto"
         android:layout_width="match_parent"
@@ -61,18 +61,18 @@
             android:id="@+id/button_gravar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginHorizontal="5dp"
-            android:text="Gravar"/>
+            android:layout_weight="1"
+            android:text="Gravar" />
+
         <Button
             android:id="@+id/button_cancelar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginHorizontal="5dp"
-            android:text="cancelar"/>
+            android:layout_weight="1"
+            android:text="cancelar" />
     </LinearLayout>
-
 
 
 </LinearLayout>

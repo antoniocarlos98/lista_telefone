@@ -89,8 +89,8 @@ class DetalhesContactoActivity : AppCompatActivity() {
         }
         binding.imagemEmail.setOnClickListener {
             val destinatario = contacto.email
-            val assunto = "Contacto"
-            val mensagem = "Enviado de ListaTelefonica APP"
+            val assunto = "Contato"
+            val mensagem = "Enviado de ListaPhone APP"
 
             sendEmail(destinatario, assunto, mensagem)
         }

@@ -40,8 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:gravity="center"
-            android:hint="Endereço"
-            android:inputType="phone" />
+            android:hint="Endereço" />
 
         <androidx.constraintlayout.utils.widget.ImageFilterView
             android:id="@+id/imagem_location"
